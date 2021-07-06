@@ -12,7 +12,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5258C4C72694ADD9006F8F1B /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		5258C4C82694B279006F8F1B /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Package.swift; path = ../Package.swift; sourceTree = "<group>"; };
 		9D4F63441C713A1200EFD3CD /* UIImageViewAlignedSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIImageViewAlignedSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D4F63471C713A1200EFD3CD /* UIImageViewAlignedSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIImageViewAlignedSwift.h; sourceTree = "<group>"; };
 		9D4F63491C713A1200EFD3CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -33,7 +33,7 @@
 		9D4F633A1C713A1200EFD3CD = {
 			isa = PBXGroup;
 			children = (
-				5258C4C72694ADD9006F8F1B /* Package.swift */,
+				5258C4C82694B279006F8F1B /* Package.swift */,
 				9D4F63461C713A1200EFD3CD /* UIImageViewAlignedSwift */,
 				9D4F63451C713A1200EFD3CD /* Products */,
 			);
