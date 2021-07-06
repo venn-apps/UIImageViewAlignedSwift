@@ -3,20 +3,20 @@
 import PackageDescription
 
 let package = Package(
-    name: "UIImageViewAligned",
+    name: "UIImageViewAlignedSwift",
     platforms: [
         .iOS(.v8)
     ],
     products: [
         .library(
-            name: "UIImageViewAligned",
-            targets: ["UIImageViewAligned"]
+            name: "UIImageViewAlignedSwift",
+            targets: ["UIImageViewAlignedSwift"]
         )
     ],
     targets: [
         .target(
-            name: "UIImageViewAligned",
-            path: "UIImageViewAligned"
+            name: "UIImageViewAlignedSwift",
+            path: "UIImageViewAlignedSwift"
         )
     ],
     swiftLanguageVersions: [.v5]
