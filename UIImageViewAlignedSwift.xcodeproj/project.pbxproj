@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5258C4CB2694BEB2006F8F1B /* UIImageViewAligned.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5258C4CA2694BEB2006F8F1B /* UIImageViewAligned.swift */; };
 		9D4F63481C713A1200EFD3CD /* UIImageViewAlignedSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D4F63471C713A1200EFD3CD /* UIImageViewAlignedSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D4F63501C713C9900EFD3CD /* UIImageViewAligned.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4F634F1C713C9900EFD3CD /* UIImageViewAligned.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5258C4C82694B279006F8F1B /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Package.swift; path = ../Package.swift; sourceTree = "<group>"; };
+		5258C4CA2694BEB2006F8F1B /* UIImageViewAligned.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewAligned.swift; sourceTree = "<group>"; };
+		5258C4CC2694BEC1006F8F1B /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		9D4F63441C713A1200EFD3CD /* UIImageViewAlignedSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIImageViewAlignedSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D4F63471C713A1200EFD3CD /* UIImageViewAlignedSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIImageViewAlignedSwift.h; sourceTree = "<group>"; };
 		9D4F63491C713A1200EFD3CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9D4F634F1C713C9900EFD3CD /* UIImageViewAligned.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIImageViewAligned.swift; path = ../../UIImageViewAligned.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,7 +33,7 @@
 		9D4F633A1C713A1200EFD3CD = {
 			isa = PBXGroup;
 			children = (
-				5258C4C82694B279006F8F1B /* Package.swift */,
+				5258C4CC2694BEC1006F8F1B /* Package.swift */,
 				9D4F63461C713A1200EFD3CD /* UIImageViewAlignedSwift */,
 				9D4F63451C713A1200EFD3CD /* Products */,
 			);
@@ -50,7 +50,7 @@
 		9D4F63461C713A1200EFD3CD /* UIImageViewAlignedSwift */ = {
 			isa = PBXGroup;
 			children = (
-				9D4F634F1C713C9900EFD3CD /* UIImageViewAligned.swift */,
+				5258C4CA2694BEB2006F8F1B /* UIImageViewAligned.swift */,
 				9D4F63471C713A1200EFD3CD /* UIImageViewAlignedSwift.h */,
 				9D4F63491C713A1200EFD3CD /* Info.plist */,
 			);
@@ -99,7 +99,7 @@
 				TargetAttributes = {
 					9D4F63431C713A1200EFD3CD = {
 						CreatedOnToolsVersion = 7.2.1;
-						LastSwiftMigration = 1020;
+						LastSwiftMigration = 1250;
 					};
 				};
 			};
@@ -136,7 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D4F63501C713C9900EFD3CD /* UIImageViewAligned.swift in Sources */,
+				5258C4CB2694BEB2006F8F1B /* UIImageViewAligned.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +271,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = sochalewski.UIImageViewAlignedSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
